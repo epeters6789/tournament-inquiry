@@ -4,29 +4,23 @@ export default function convertLunch(meal){
   if (meal === 'None'){
     return 0;
   }else if(meal === 'Turkey Wrap (Boxed)'){
-      return 18.75;
+      return 15;
   }else if(meal === 'Ham and Swiss Wrap (Boxed)'){
-      return 18.75;
-  }else if(meal === 'Roast Beef Sandwhich (Boxed)'){
-      return 22;
-  }else if(meal === 'BBQ Pulled Pork Sandwhich (Boxed)'){
-      return 25;
+      return 15;
   }else if(meal === 'Phily Cheessteak Sandwhich (Boxed)'){
-      return 25;
+      return 20;
   }else if(meal === 'Fried Chicken Sandwich (Boxed)'){
-      return 25;
-  }else if(meal === 'BBQ Pulled Pork (Plate)'){
-      return 27;
-  }else if(meal === 'Brisket (Plate)'){
-      return 27;
-  }else if(meal === 'Smoked Sausage (Plate)'){
-      return 27;
-  }else if(meal === 'Chicken Breast (Plate)'){
-      return 27;
-  }else if(meal === 'Ground Beef Tacos (Plate)'){
-      return 29;
-  }else if(meal === 'Chicken Tacos (Plate)'){
-      return 29;
+      return 20;
+  }else if(meal === 'BBQ Pulled Pork (Plated)'){
+      return 22;
+  }else if(meal === 'Chicken Breast (Plated)'){
+      return 22;
+  }else if(meal === 'Smoked Hot Sausage (Plated)'){
+      return 22;
+  }else if(meal === 'Seared Salmon (Plated)'){
+      return 24;
+  }else if(meal === 'Grilled Chicken Breast (Plated)'){
+      return 24;
   }else{
     return 0;
   }

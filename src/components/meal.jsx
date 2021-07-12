@@ -46,32 +46,31 @@ export default class Meal extends React.Component{
   // Render method for general info
   render(){
     const breakfastOptions = ['None',
-                              'Copper Continental',
                               'Copper Continental Plus',
                               'Breakfast Burrito',
-                              'Vine18 Breakfast',
-                              'Pancake Breakfast',
-                              'NY Steak and Eggs'];
+                              'Vine18 Breakfast Buffet',
+                              'Vine18 Breakfast Plated'];
     const lunchOptions = ['None',
                           'Turkey Wrap (Boxed)',
                           'Ham and Swiss Wrap (Boxed)',
-                          'Roast Beef Sandwhich (Boxed)',
-                          'BBQ Pulled Pork Sandwhich (Boxed)',
                           'Phily Cheessteak Sandwhich (Boxed)',
                           'Fried Chicken Sandwich (Boxed)',
-                          'BBQ Pulled Pork (Plate)',
-                          'Brisket (Plate)',
-                          'Smoked Sausage (Plate)',
-                          'Chicken Breast (Plate)',
-                          'Ground Beef Tacos (Plate)',
-                          'Chicken Tacos (Plate)'];
+                          'BBQ Pulled Pork (Plated)',
+                          'Chicken Breast (Plated)',
+                          'Smoked Hot Sausage (Plated)',
+                          'Seared Salmon (Plated)',
+                          'Grilled Chicken Breast (Plated)'];
     const dinnerOptions = ['None',
                            'Napa Duet Dinner',
-                           'Provence',
-                           'Burgundy',
-                           'Champagne',
-                           'Jalisco',
-                           'Little Italy'];
+                           'Provence (Stuffed Chicken Breast)',
+                           'Provence (Beef Bourguignon)',
+                           'Provence (Seared Pacific Salmon)',
+                           'Champagne (Filet)',
+                           'Champagne (Seared Sea Scallops)',
+                           'Vegetarian',
+                           'Chicken Strips (Kids)',
+                           'Cheese Slider (Kids)',
+                           'Macaroni and Cheese (Kids)'];
     return(
       <div className="meal" >
         <p className="mealChild">

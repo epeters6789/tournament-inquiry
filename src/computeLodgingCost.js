@@ -16,19 +16,19 @@ export function computeLodgingCost(length, dates, option1, option2, option3,
 
       // If weekend night
       if(day === 5 || day === 6){
-        cost += option1[i] * 322.56;
-        cost += option2[i] * 322.56;
-        cost += option3[i] * 322.56;
-        cost += option4[i] * 215.04;
-        cost += option5[i] * 215.04;
+        cost += option1[i] * 347.20;
+        cost += option2[i] * 347.20;
+        cost += option3[i] * 347.20;
+        cost += option4[i] * 240.80;
+        cost += option5[i] * 240.80;
 
-      // if weekday night
+      // If weekday night
       }else{
-        cost += option1[i] * 259.84;
-        cost += option2[i] * 259.84;
-        cost += option3[i] * 259.84;
-        cost += option4[i] * 174.72;
-        cost += option5[i] * 174.72;
+        cost += option1[i] * 280.00;
+        cost += option2[i] * 280.00;
+        cost += option3[i] * 280.00;
+        cost += option4[i] * 196.00;
+        cost += option5[i] * 196.00;
       }
 
     // If off season
@@ -36,19 +36,19 @@ export function computeLodgingCost(length, dates, option1, option2, option3,
 
       // If weekend
       if(day === 5 || day === 6){
-        cost += option1[i] * 259.84;
-        cost += option2[i] * 259.84;
-        cost += option3[i] * 259.84;
-        cost += option4[i] * 190.21;
-        cost += option5[i] * 190.21;
+        cost += option1[i] * 293.44;
+        cost += option2[i] * 293.44;
+        cost += option3[i] * 293.44;
+        cost += option4[i] * 224.00;
+        cost += option5[i] * 224.00;
 
       // If weekday
       }else{
-        cost += option1[i] * 222.88;
-        cost += option2[i] * 222.88;
-        cost += option3[i] * 222.88;
-        cost += option4[i] * 153.44;
-        cost += option5[i] * 153.44;
+        cost += option1[i] * 240.80;
+        cost += option2[i] * 240.80;
+        cost += option3[i] * 240.80;
+        cost += option4[i] * 173.60;
+        cost += option5[i] * 173.60;
       }
     }
   }
